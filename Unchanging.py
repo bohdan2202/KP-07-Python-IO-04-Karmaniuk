@@ -1,0 +1,49 @@
+import string
+
+
+# незмінна(константа)
+
+
+DIGITS = '0123456789'
+LETTERS = string.ascii_letters
+LETTERS_DIGITS = LETTERS + DIGITS
+OPERATIONS = '+-/*=%<>&|^'
+
+# токін
+
+
+TT_INT_DEC_NUM = 'INT_DEC_NUMBER'
+TT_INT_OCT_NUMBER = 'INT_OCT_NUMBER'
+TT_FLOAT_NUMBER = 'FLOAT_NUMBER'
+TT_INVALID_NUMBER = 'INVALID_NUMBER'
+TT_TYPE_INT = 'TYPE_INT'
+TT_TYPE_FLOAT = 'TYPE_FLOAT'
+TT_IDENTIFIER = 'IDENTIFIER'
+TT_LPAREN = 'LPAREN'
+TT_RPAREN = 'RPAREN'
+TT_LBLOCK = 'BEGIN'
+TT_RBLOCK = 'END'
+TT_MINUS = 'MINUS'
+TT_BIT_OR = 'BIT_OR'
+TT_PROC = 'PROC'
+TT_DIV = 'DIV'
+TT_MUL = 'MUL'
+TT_EQ = 'EQ'
+TT_GT = 'GT'
+TT_LT = 'LT'
+TT_QM = 'QM'
+TT_DIV_EQ = 'DIV_EQ'
+TT_COMMA = 'COMMA'
+TT_COLON = 'COLON'
+TT_SEMICOLON = 'SEMICOLON'
+TT_KEYWORD = 'KEYWORD'
+TT_EOF = 'EOF'
+
+KEYWORDS = [
+    'return',
+    'do',
+    'while',
+    'break',
+    'if',
+    'else'
+]
